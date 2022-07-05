@@ -16,6 +16,6 @@
         document.write(10+10);
     </script>
     // result : document.write("Hello world"); <- web browser side
-                document.write(10+10);
+    //          document.write(10+10);
 </body>
 </html>
