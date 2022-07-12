@@ -10,6 +10,7 @@
     document.write(list[0]);
     document.write(list[1]);
     document.write(list[2]);
+    document.write(list.length);	
 	</script>
   
   <h2>php</h2>
@@ -18,6 +19,7 @@
     echo $list[0];
     echo $list[1];
     echo $list[2];
+    echo count($list);
   ?>
 </body>
 </html>
