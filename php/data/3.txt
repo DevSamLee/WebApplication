@@ -1,0 +1,5 @@
+Operator
+
+JavaScript includes operators same as other languages. 
+An operator performs some operation on single or multiple operands (data value) and produces a result. 
+For example, in 1 + 2 , the + sign is an operator and 1 is left side operand and 2 is right side operand.
