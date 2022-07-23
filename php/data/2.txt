@@ -1,0 +1,9 @@
+Variable
+
+A variable, on the other hand, changes its value dependent on the equation.
+Variables are specially written in letters or symbols.
+
+Constant
+
+A constant does not change its value over time.
+Constants are usually written in numbers.
