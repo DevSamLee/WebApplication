@@ -1,0 +1,33 @@
+C:\xampp\mysql\bin>mysql -hlocalhost -userveruser -p
+Enter password: gorgonzola7!
+
+==
+$conn = mysquli_connect('localhost','serveruser', gorgonzola7!);
+
+
+use serverside;
+
+==
+mysqli_select_db($conn, 'serverside');
+
+
+SELECT*FROM topic;
+
+==
+$result = mysqli_query($conn, 'SELECT*FROM topic');
+
+
+MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| serverside         |
+| test               |
++--------------------+
+3 rows in set (0.001 sec)
+
+==
+$row = mysql_fetch_assoc($result);
+$row['title'];
+$row['description'];
