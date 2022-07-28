@@ -1,5 +1,5 @@
 <?php
-  echo $_GET['title'];
+  echo $_POST['title'];
   echo "<br>";
-  echo $_GET['description'];
+  echo $_POST['description'];
 ?>
