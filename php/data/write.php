@@ -29,11 +29,18 @@
         <a href="http://localhost:31337/webapplication/php/data/write.php">Write</a>
     </div>
     <article>
-        <?php
-            if(!empty($_GET['id'])){
-                echo file_get_contents($_GET['id'].".txt");
-            }
-        ?>
+        <form action="process.php" method="post">
+        <p>
+            Title: <input type="text" name="title">
+        </p>
+        <p>
+            Author: <input type="text" name="author">
+        </p>
+        <p>
+            Description: <textarea name="description"></textarea>
+        </p>
+        <input type="submit" name="name">  
+        </form>
     </article>
     <script src="http://localhost:31337/webapplication/php/data/script.js"></script>
 </body>
