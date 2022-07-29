@@ -26,6 +26,7 @@
     <div id="control">
         <input type="button" value="white" id="white_btn" />
         <input type="button" value="black" id="black_btn" />
+        <a href="http://localhost:31337/webapplication/php/data/write.php">Write</a>
     </div>
     <article>
         <?php
