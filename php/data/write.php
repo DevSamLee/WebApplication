@@ -43,5 +43,10 @@
         </form>
     </article>
     <script src="http://localhost:31337/webapplication/php/data/script.js"></script>
-</body>
+    <script>
+        UPLOADCARE_PUBLIC_KEY = "";
+    </script>
+    <script charset="utf-8"
+       src="//ucarecdn.com/widget/2.9.0/uploadcare/uploadcare.full.min.js></script>
+    </body>
 </html>
