@@ -37,8 +37,9 @@
             Author: <input type="text" name="author">
         </p>
         <p>
-            Description: <textarea name="description"></textarea>
+            Description: <textarea name="description" id="description"></textarea>
         </p>
+        <input type="hidden" role="uploadcare-uploader" />
         <input type="submit" name="name">  
         </form>
     </article>
@@ -48,5 +49,12 @@
     </script>
     <script charset="utf-8"
        src="//ucarecdn.com/widget/2.9.0/uploadcare/uploadcare.full.min.js></script>
+    <script>
+    <!-- create widget -->
+    var singleWidget = uploadcare.SingleWidget('[role=uploadcare-uploader]');
+    singleWidget.onUploadComplete(function(info){
+       document.getElementById('description').value = document.getElementById('description').value + '<img src="'info.cdnUrl+'">'; 
+    });
+    </script>
     </body>
 </html>
