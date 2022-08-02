@@ -36,7 +36,7 @@
                 $row = mysqli_fetch_assoc($result);
                 echo '<h2>'.htmlspecialchars($row['title']).'</h2>';
                 echo '<p>'.htmlspecialchars($row['name']).'</p>;
-                echo htmlspecialchars($row['description']);
+                echo strip_tags($row['description'], '<a><h1><h2><h3><ul><li><ol>');
             }
         ?>
     </article>
