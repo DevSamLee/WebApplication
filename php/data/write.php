@@ -1,5 +1,6 @@
 <?php
     require("lib/db.php");
+    db_init();
     $result = mysqli_query($conn, 'SELECT * FROM javascript');   
 ?>
 <!DOCTYPE html>
