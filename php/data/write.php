@@ -1,6 +1,5 @@
 <?php
-    $conn = mysquli_connect('localhost','serveruser', 'gorgonzola7!');
-    mysqli_select_db($conn, 'serverside');
+    require("lib/db.php");
     $result = mysqli_query($conn, 'SELECT * FROM javascript');   
 ?>
 <!DOCTYPE html>
