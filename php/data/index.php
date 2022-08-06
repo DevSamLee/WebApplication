@@ -1,6 +1,6 @@
 <?php
     require("lib/db.php");
-    db_init();
+    $conn = db_init("localhost", "root", "111111", "opentutorials");
     $result = mysqli_query($conn, 'SELECT * FROM javascript');   
 ?>
 <!DOCTYPE html>
