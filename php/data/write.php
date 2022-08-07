@@ -1,6 +1,7 @@
 <?php
+    require("config/config.php");
     require("lib/db.php");
-    $conn = db_init("localhost", "root", "111111", "opentutorials");
+    $conn = db_init($config["host"], $config["dbuser"], $config["dbpw"], $config["dbname"]);
     $result = mysqli_query($conn, 'SELECT * FROM javascript');   
 ?>
 <!DOCTYPE html>
