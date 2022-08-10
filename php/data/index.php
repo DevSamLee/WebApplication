@@ -19,7 +19,7 @@
     
 </head>
 <body id="target">
-    <header>
+    <header class="jumbotron">
         <h1><a href="http://localhost:31337/webapplication/php/data/index.php">JavaScript</a></h1>
     </header>
     <div class="row">
