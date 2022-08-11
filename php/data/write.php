@@ -53,7 +53,7 @@
                    </div>
                    <div class="form-group">
                        <label for="descriptionExample">Description</label>
-                       <textarea class="form-control" name="description" id="descriptionExample" placeholder="Enter description"></textarea> 
+                       <textarea class="form-control" rows="10" name="description" id="descriptionExample" placeholder="Enter description"></textarea> 
                    </div>
                        <input type="hidden" role="uploadcare-uploader" />
                        <input type="submit" name="name" class="btn btn-default">
