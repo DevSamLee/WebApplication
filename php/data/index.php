@@ -39,7 +39,7 @@
                     <input type="button" value="white" id="white_btn" class="btn btn-default" />
                     <input type="button" value="black" id="black_btn" class="btn btn-default" />
                 </div>
-                <a href="http://localhost:31337/webapplication/php/data/write.php" class="btn btn-default">write</a>
+                <a href="http://localhost:31337/webapplication/php/data/write.php" class="btn btn-success">write</a>
             </div>    
             <article>
                 <?php
