@@ -25,7 +25,7 @@
         </header>
         <div class="row">
             <nav class="col-md-3">
-                <ol>
+                <ol class="nav nav-pills nav-stacked">
                    <?php
                         while($row = mysqli_fetch_assoc($result)) {
                             echo '<li><a href="http://localhost:31337/webapplication/php/data/index.php?id='.htmlspecialchars($row['id']).'">'.$row['title'].'</a></li>'."\n";
