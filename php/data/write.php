@@ -43,17 +43,20 @@
             </div>    
             <article>
                <form action="process.php" method="post">
-                    <p>
-                        Title: <input type="text" name="title">
-                    </p>
-                    <p>
-                        Author: <input type="text" name="author">
-                    </p>
-                    <p>
-                        Description: <textarea name="description" id="description"></textarea>
-                    </p>
-                    <input type="hidden" role="uploadcare-uploader" />
-                    <input type="submit" name="name">  
+                   <div class="form-group">
+                       <label for="titleExample">Title</label>
+                       <input type="text" class="form-control" name="title" id="titleExample" placeholder="Enter title">
+                   </div>
+                   <div class="form-group">
+                       <label for="authorExample">Author</label>
+                       <input type="text" class="form-control" name="author" id="authorExample" placeholder="Enter author">
+                   </div>
+                   <div class="form-group">
+                       <label for="descriptionExample">Description</label>
+                       <textarea class="form-control" name="description" id="descriptionExample" placeholder="Enter description"></textarea> 
+                   </div>
+                       <input type="hidden" role="uploadcare-uploader" />
+                       <input type="submit" name="name" class="btn btn-default">
                 </form>
             </article>            
        </div>
