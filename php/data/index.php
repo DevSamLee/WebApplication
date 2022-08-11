@@ -35,9 +35,11 @@
             </nav>
         <div class="col-md-9">
             <div id="control">
-                <input type="button" value="white" id="white_btn" />
-                <input type="button" value="black" id="black_btn" />
-                <a href="http://localhost:31337/webapplication/php/data/write.php">Write</a>
+                <div class="btn-group" role="group" aria-label="...">
+                    <input type="button" value="white" id="white_btn" class="btn btn-default" />
+                    <input type="button" value="black" id="black_btn" class="btn btn-default" />
+                </div>
+                <a href="http://localhost:31337/webapplication/php/data/write.php" class="btn btn-default">write</a>
             </div>    
             <article>
                 <?php
